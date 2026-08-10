@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Truth vs Facts — Distinguishing Truth from Manipulated Facts | Caelverum Archive</title>
+  <meta name="description" content="There is no longer any excuse for remaining uneducated about how facts can be manipulated. A clear guide to selective omission, out-of-context framing, distortion, cherry-picking, emotional manipulation, false authority, and the professional disciplines required for clarity." />
+  <link rel="canonical" href="https://truthvsfacts.vercel.app/article.html" />
+  <meta property="og:title" content="Truth vs Facts — Distinguishing Truth from Manipulated Facts" />
+  <meta property="og:description" content="In a world of noise and narratives, clarity is a competitive advantage. How facts are manipulated and how professionals protect decision quality." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://truthvsfacts.vercel.app/article.html" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/Caelverum/truthvsfacts/main/images/tvf-01.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Truth vs Facts — Distinguishing Truth from Manipulated Facts" />
+  <meta name="twitter:description" content="How facts are manipulated and the professional disciplines that restore clarity." />
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/Caelverum/truthvsfacts/main/images/tvf-01.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root { --bg:#05030a; --bg-card:#0c0814; --bg-elevated:#140f1f; --border:#2a1f3d; --text:#f0e8ff; --text-muted:#a08cbe; --accent:#c026d3; --accent-soft:#e879f9; --prose:#d4c4eb; --gold:#e879f9; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:'Inter',system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; min-height:100vh; background-image:radial-gradient(ellipse 80% 50% at 50% -20%,rgba(192,38,211,0.12),transparent); }
+    a { color:var(--accent-soft); text-decoration:none; } a:hover { text-decoration:underline; }
+    .container { max-width:720px; margin:0 auto; padding:0 1.35rem; }
+    header { position:relative; background:rgba(5,3,10,0.9); backdrop-filter:blur(12px); border-bottom:1px solid var(--border); }
+    .nav { display:flex; align-items:center; justify-content:space-between; height:60px; max-width:1100px; margin:0 auto; padding:0 1.25rem; }
+    .logo { font-weight:800; font-size:1.1rem; letter-spacing:-0.02em; font-family:'Space Grotesk',sans-serif; }
+    .logo span { color:var(--accent-soft); }
+    .nav-links a { color:var(--text-muted); font-size:0.9rem; font-weight:500; margin-left:1.25rem; }
+    .nav-links a:hover { color:var(--text); text-decoration:none; }
+    .article-header { padding:4.5rem 0 2rem; text-align:center; border-bottom:1px solid var(--border); margin-bottom:2.5rem; scroll-margin-top:70px; }
+    .article-header .eyebrow { display:inline-block; font-size:0.8rem; font-weight:600; color:var(--accent-soft); letter-spacing:0.04em; text-transform:uppercase; margin-bottom:1rem; }
+    .article-header h1 { font-family:'Space Grotesk',sans-serif; font-size:clamp(1.9rem,5vw,2.6rem); font-weight:700; line-height:1.25; margin-bottom:1rem; letter-spacing:-0.02em; }
+    .article-header .dek { font-size:1.1rem; color:var(--text-muted); max-width:540px; margin:0 auto 1.75rem; line-height:1.55; }
+    .share-bar { display:flex; flex-wrap:wrap; gap:0.4rem; justify-content:center; }
+    .share-btn { display:inline-flex; align-items:center; gap:0.3rem; padding:0.45rem 0.85rem; border-radius:8px; font-size:0.78rem; font-weight:600; border:1px solid var(--border); background:var(--bg-elevated); color:var(--text); cursor:pointer; transition:background 0.15s; text-decoration:none; }
+    .share-btn:hover { background:#1f1630; text-decoration:none; }
+    .share-btn.primary { background:var(--accent); border-color:var(--accent); color:white; }
+    .share-btn.primary:hover { background:#d946ef; }
+    article { padding-bottom:4rem; }
+    .prose h2 { font-family:'Space Grotesk',sans-serif; font-size:1.45rem; font-weight:700; margin:2.75rem 0 1rem; line-height:1.3; color:var(--text); }
+    .prose p { font-size:1.05rem; color:var(--prose); margin-bottom:1.15rem; }
+    .prose ul { margin:0.75rem 0 1.5rem 1.4rem; color:var(--prose); }
+    .prose li { margin-bottom:0.65rem; font-size:1.02rem; line-height:1.6; }
+    .prose strong { color:var(--text); font-weight:600; }
+    .prose em { font-style:italic; }
+    .callout { background:var(--bg-card); border:1px solid var(--border); border-left:3px solid var(--accent); border-radius:0 12px 12px 0; padding:1.25rem 1.35rem; margin:2rem 0; }
+    .callout p { margin-bottom:0; font-size:1.02rem; }
+    .download-box { background:var(--bg-card); border:1px solid var(--border); border-radius:14px; padding:1.5rem; margin:3rem 0 2rem; text-align:center; }
+    .download-box h3 { font-size:1.05rem; margin-bottom:0.5rem; }
+    .download-box p { font-size:0.9rem; color:var(--text-muted); margin-bottom:1rem; }
+    footer { border-top:1px solid var(--border); padding:2rem 0; text-align:center; color:var(--text-muted); font-size:0.82rem; }
+    footer a { color:var(--text-muted); }
+    .toast { position:fixed; bottom:1.5rem; left:50%; transform:translateX(-50%) translateY(100px); background:#1a1228; color:white; padding:0.7rem 1.2rem; border-radius:10px; font-size:0.88rem; font-weight:500; box-shadow:0 8px 30px rgba(0,0,0,0.5); opacity:0; transition:all 0.3s ease; z-index:100; }
+    .toast.show { transform:translateX(-50%) translateY(0); opacity:1; }
+    @media (max-width:640px) { .nav-links { display:none; } .article-header { padding:3.5rem 0 1.5rem; } .prose p, .prose li { font-size:1rem; } }
+    @media print { header, .share-bar, .download-box, footer, .toast { display:none !important; } body { background:white; color:#111; } .prose p, .prose li { color:#222; } .container { max-width:100%; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <a href="/" class="logo">Truth <span>vs Facts</span></a>
+      <nav class="nav-links">
+        <a href="/">Home</a>
+        <a href="/#gallery">The Series</a>
+        <a href="/article.html">Full Article</a>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <header class="article-header">
+      <div class="eyebrow">Caelverum Archive Module</div>
+      <h1>Truth vs Facts</h1>
+      <p class="dek">There is no longer any excuse for remaining uneducated about how facts can be manipulated. Clarity is a competitive advantage.</p>
+      <div class="share-bar">
+        <button class="share-btn primary" onclick="shareArticle()">Share</button>
+        <a class="share-btn" href="#" onclick="shareTo('x'); return false;">𝕏</a>
+        <a class="share-btn" href="#" onclick="shareTo('fb'); return false;">Facebook</a>
+        <a class="share-btn" href="#" onclick="shareTo('li'); return false;">LinkedIn</a>
+        <a class="share-btn" href="#" onclick="shareTo('email'); return false;">Email</a>
+        <button class="share-btn" onclick="copyLink()">Copy link</button>
+        <button class="share-btn" onclick="window.print()">Print / PDF</button>
+      </div>
+    </header>
+    <article class="prose">
+      <p><strong>Facts can be manipulated.</strong> This is not a conspiracy theory. It is a routine feature of public discourse, organisational reporting, marketing, politics and media. The difference between a professional who can still orient accurately and one who cannot often comes down to whether they have trained themselves to see the common methods of distortion.</p>
+      <p>This module exists to make those methods visible and to restore the practical disciplines that protect decision quality.</p>
+
+      <h2>How Facts Are Manipulated</h2>
+      <p>Six patterns appear again and again:</p>
+      <ul>
+        <li><strong>Selective Omission</strong> — Leaving out inconvenient facts to shape a misleading picture. What is not said is often more decisive than what is said.</li>
+        <li><strong>Out of Context</strong> — Using real facts in a different context to create a false meaning. The data is accurate; the frame is not.</li>
+        <li><strong>Distortion</strong> — Twisting numbers, statistics or visuals to exaggerate or minimise reality. Scale, baselines and visual encoding are common levers.</li>
+        <li><strong>Cherry Picking</strong> — Highlighting the few data points that support a preferred narrative while ignoring the rest of the distribution.</li>
+        <li><strong>Emotional Manipulation</strong> — Appealing to fear, anger, moral outrage or bias to bypass logic and critical thinking. The goal is to short-circuit the orient phase.</li>
+        <li><strong>False Authority</strong> — Using titles, influence, status or institutional prestige to give weight to weak or false claims. Authority is not evidence.</li>
+      </ul>
+
+      <h2>The Professional Requirement</h2>
+      <p>As professionals our role requires us to:</p>
+      <ul>
+        <li><strong>Know more</strong> — Go deeper. Understand the subject, the system, and the agenda.</li>
+        <li><strong>Read between the lines</strong> — Examine what is said, what is not said, and why it is presented that way.</li>
+        <li><strong>Become accurate observers</strong> — Observe people, patterns and information without assumption or attachment.</li>
+      </ul>
+
+      <div class="callout">
+        <p>Question everything. Verify relentlessly. Trust earned, not assumed. In a world of noise and narratives, clarity is a competitive advantage.</p>
+      </div>
+
+      <h2>The Operating Standard</h2>
+      <p>Five practical layers of verification:</p>
+      <ul>
+        <li><strong>Evidence</strong> — What is the actual source material?</li>
+        <li><strong>Context</strong> — Under what conditions was this produced and for what purpose?</li>
+        <li><strong>Motive</strong> — Who benefits if this framing is accepted?</li>
+        <li><strong>Pattern</strong> — Does this fit a known method of influence or distortion?</li>
+        <li><strong>Truth</strong> — After the above, what can still be responsibly asserted?</li>
+      </ul>
+
+      <p>These are not academic exercises. They are the difference between being directed by narrative and remaining capable of independent orientation.</p>
+
+      <h2>Closing</h2>
+      <p>Facts inform. Discernment protects. Truth empowers.</p>
+      <p>The series that accompanies this article is designed for rapid sharing. Each card isolates one element of the problem or one element of the solution so that the insight can travel without requiring the full context every time. Use them. Improve them. Demand better from the information environments you inhabit.</p>
+
+      <div class="download-box">
+        <h3>Save or share this article</h3>
+        <p>Use the buttons above, print to PDF, or copy the link to send to others.</p>
+        <div class="share-bar" style="justify-content:center;">
+          <button class="share-btn primary" onclick="shareArticle()">Share article</button>
+          <button class="share-btn" onclick="window.print()">Print / Save as PDF</button>
+          <button class="share-btn" onclick="copyLink()">Copy link</button>
+          <a class="share-btn" href="/">Back to series</a>
+        </div>
+      </div>
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p><a href="/">Truth vs Facts</a> · Caelverum Archive Module</p>
+      <p style="margin-top:0.4rem; font-size:0.78rem;">Built for those who refuse to remain uneducated about manipulation.</p>
+      <p style="margin-top:0.75rem; font-size:0.75rem; opacity:0.7;">© Caelverum Archives. All rights reserved.</p>
+    </div>
+  </footer>
+  <div class="toast" id="toast"></div>
+  <script>
+    const ARTICLE_URL = 'https://truthvsfacts.vercel.app/article.html';
+    const ARTICLE_TITLE = 'Truth vs Facts — Distinguishing Truth from Manipulated Facts';
+    const ARTICLE_TEXT = 'There is no longer any excuse for remaining uneducated about how facts can be manipulated. Clarity is a competitive advantage. Read the full article:';
+    function showToast(msg) { const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show'); setTimeout(() => t.classList.remove('show'), 2200); }
+    async function shareArticle() {
+      if (navigator.share) { try { await navigator.share({ title: ARTICLE_TITLE, text: ARTICLE_TEXT, url: ARTICLE_URL }); return; } catch (e) {} }
+      await navigator.clipboard.writeText(ARTICLE_TEXT + '\n\n' + ARTICLE_URL); showToast('Copied — paste anywhere');
+    }
+    function shareTo(platform) {
+      const text = encodeURIComponent(ARTICLE_TEXT); const url = encodeURIComponent(ARTICLE_URL); let link = '';
+      if (platform === 'x') link = `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
+      else if (platform === 'fb') link = `https://www.facebook.com/sharer/sharer.php?u=${url}&quote=${text}`;
+      else if (platform === 'li') link = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
+      else if (platform === 'email') link = `mailto:?subject=${encodeURIComponent(ARTICLE_TITLE)}&body=${text}%0A%0A${url}`;
+      if (link) window.open(link, '_blank', 'noopener,noreferrer,width=600,height=500');
+    }
+    async function copyLink() { await navigator.clipboard.writeText(ARTICLE_URL); showToast('Link copied'); }
+  </script>
+</body>
+</html>
